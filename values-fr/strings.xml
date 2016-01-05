@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IWCF Well Control Calculatrice</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="answer">Réponse</string>
+    <string name="mud_density">Densité de la boue</string>
+    <string name="tvd">TVD (ft)</string>
+    <string name="hydrostatic_pressure">Pression hydrostatique</string>
+    <string name="hydraulic_pressure_in_drill_string">Press. hyd. dans la garniture</string>
+    <string name="pump_displacement">Capacité de la pompe</string>
+    <string name="pump_rate">vitesse de la pompe</string>
+    <string name="pump_output">Débit</string>
+    <string name="annular_capacity">Capacité de annulaire</string>
+    <string name="annular_pressure_loss">la perte de press. annulaire</string>
+    <string name="safety_margin">Marge de Sécurité</string>
+    <string name="old_pump_pressure">Ancienne pression de pompe</string>
+    <string name="new_pump_rate">Nouvelle vitesse de pompe</string>
+    <string name="old_pump_rate">Ancienne vitesse de pompe</string>
+    <string name="new_mud_density">Nouvelle densité de la boue</string>
+    <string name="old_mud_density">ancienne densité de la boue</string>
+    <string name="surface_LOT_pressure">Pression de LOT de surface</string>
+    <string name="shoe_TVD">TVD Sabot</string>
+    <string name="LOT_mud_density">Densité de boue de LOT</string>
+    <string name="maximum_allowable_mud_density">Densité de boue\nmaximale admissible</string>
+    <string name="current_mud_density">Densité de la boue actuel</string>
+    <string name="original_mud_density">Densité de boue d\'origine</string>
+    <string name="kill_rate_pressure">Pertes de charge\nà débit réduit</string>
+    <string name="SIDPP">SIDPP</string>
+    <string name="kill_mud_density">Densité requise</string>
+    <string name="rate_of_increase_in_surface_pressure">Augmentation\nde pression annulaire</string>
+    <string name="rate_of_increase_in_surface_pressure_land">Augmentation de pression annulaire</string>
+    <string name="initial_mud_density">Densité initiale</string>
+    <string name="precharge_pressure">Pression de précharge</string>
+    <string name="minimum_pressure">Pression minimum</string>
+    <string name="maximum_pressure">Pression maximum</string>
+    <string name="bottle_size">Volume des bouteilles</string>
+    <string name="metal_displacement">Capacité acier tiges</string>
+    <string name="riser_or_casing_capacity">Capacité riser ou casing</string>
+    <string name="closed_end_displacement">Capacité extérieure tiges</string>
+    <string name="closed_end_displacement_of_collars">Capacité extérieure masse-tiges</string>
+    <string name="length_of_collars">Longueur masse-tiges</string>
+    <string name="metal_displacement_of_collars">Capacité acier masse-tiges</string>
+    <string name="overbalance">d\'excédent de pression</string>
+    <string name="mud_gradient">Gradient de boue</string>
+    <string name="increase_in_surface_pressure">Augmentation de pression en tête</string>
+    <string name="formation_pressure">Pression de gisement</string>
+    <string name="influx_volume">Gain initial</string>
+    <string name="length_of_dry_pipe">Longueur de\ntiges vides</string>
+    <string name="pipe_capacity">capacité\nintérieure tiges</string>
+    <string name="slug_density">Densité du bouchon</string>
+    <string name="slug_volume">Volume du bouchon lourd</string>
+    <string name="air_gap">Air gap</string>
+    <string name="water_depth">Profondeur d\'eau</string>
+    <string name="seawater_density">densité eau de mer</string>
+    <string name="unfilled_casing_height">hauteur non remplie de casing</string>
+    <string name="casing_capacity">capacité du casing</string>
+    <string name="calculate">Calculer</string>
+    <string name="pressure">Pression</string>
+    <string name="ad_unit_id">ca-app-pub-7466708221842397/9802769278</string>
+    <string name="ad_unit_id_interstitial"> ca-app-pub-7466708221842397/9460385275</string>
+    <string-array name="formula_titles">
+        <item>1. PRESSION HYDROSTATIQUE</item>
+        <item>2. GRADIENT DE PRESSION</item>
+        <item>3. DENSITE DE LA BOUE</item>
+        <item>4. PRESSION DE GISEMENT</item>
+        <item>5. DEBIT DE LA POMPE</item>
+        <item>6. VITESSE ANNULAIRE</item>
+        <item>7. DENSITE EQUIVALENTE DE CIRCULATION</item>
+        <item>8. DENSITE AVEC SECURITE S INCLUSE</item>
+        <item>9. NOUVELLE PRESSION APPROXIMATIVE AVEC UNE NOUVELLE VITESSE DE POMPE</item>
+        <item>10. NOUVELLE PRESSION APPROXIMATIVE AVEC UNE NOUVELLE DENSITE</item>
+        <item>11. DENSITE MAXIMUM DE BOUE DANS LE PUITS</item>
+        <item>12. MAASP</item>
+        <item>13. DENSITE REQUISE dr</item>
+        <item>14. PRESSION INITIALE DE CIRCULATION</item>
+        <item>15. PRESSION FINALE DE CIRCULATION</item>
+        <item>16. BARYTE POUR AUGMENTER LA DENSITE</item>
+        <item>17. VITESSE DE MIGRATION</item>
+        <item>18. LOI DES GAZ</item>
+        <item>19. FLUIDE DES BOUTEILLES ACCUMULATEUR UTILISABLES</item>
+        <item>20. DIMINUTION DE PRESSION PAR PIED DE TIGES REMONTEES VIDES</item>
+        <item>21. DIMINUTION DE PRESSION PAR METRE DE TIGES REMONTEES PLEINES</item>
+        <item>22. DIMINUTION DE NIVEAU EN SORTANT COMPLETEMENT LES MASSE-TIGES VIDES</item>
+        <item>23. DIMINUTION DE NIVEAU EN SORTANT COMPLETEMENT LES MASSE-TIGES PLEINES</item>
+        <item>24. LONGUEUR DE TUBULAIRES A REMONTER VIDES AVANT DE PERDRE LA SECURITE</item>
+        <item>25. LONGUEUR DE TUBULAIRES A REMONTER PLEINES AVANT DE PERDRE LA SECURITE</item>
+        <item>26. VOLUME A PURGER POUR RAMENER LA PRESSION DE FOND A LA PRESSION DE GISEMENT</item>
+        <item>27. VOLUME DE BOUCHON POUR UNE LONGUEUR DE TIGES REMONTEES VIDES</item>
+        <item>28. GAIN DANS LES BACS SUITE AU POMPAGE D\'UN BOUCHON LOURD (EFFET TUBE EN U)</item>
+        <item>29. SECURITE RISER (RISER MARGIN)</item>
+        <item>30. PERTE DE PRESSION HYDROSTATIQUE EN CAS DE RUPTURE DU CLAPET ANTI-RETOUR DU CASING</item>
+    </string-array>
+    <string-array name="formula_expressions">
+        <item>Densité de la boue (ppg) x 0.052 x TVD (ft)</item>
+        <item>Densité de la boue (ppg) × 0.052</item>
+        <item>Pression (psi) ÷ TVD (ft) ÷ 0.052</item>
+        <item>Pression hydrostatique dans la garniture (psi) + SIDPP (psi)</item>
+        <item>Capacité de la pompe (bbl/stk) x vitesse de la pompe (spm)</item>
+        <item>Débit (bbl/min) ÷ Capacité de l\'espace annulaire (bbl/ft)</item>
+        <item>Pertes de charge dans l\'espace annulaire (psi) ÷ TVD (ft) ÷ 0.052 + densité de la boue (ppg)</item>
+        <item>Marge de Sécurité (psi) ÷ TVD (ft) ÷ 0.052 + densité de la boue (ppg)</item>
+        <item>Ancienne pression de refoulement (psi) × [Nouvelle vitesse de pompe ÷ Ancienne vitesse de pompe]<sup>2</sup></item>
+        <item>Ancienne pression de refoulement (psi) × [Nouvelle densité ÷ Ancienne densité]</item>
+        <item>Pression lue en surf ace lors du LOT (psi) ÷ TVD Sabot (ft) ÷ 0.052 + Densité utilisée lors du LOT (ppg)</item>
+        <item>[Densité max. dans le puits (ppg)- densité actuelle dans le puits (ppg)] x 0.052 x TVD sabot (ft)</item>
+        <item>SIDPP (psi) ÷ TVD (ft) ÷ 0.052 + Densité initiale d1 (ppg)</item>
+        <item>Pertes de charge à débit réduit (psi) + SIDPP (psi)</item>
+        <item>Pertes de charge à débit réduit (psi) x Densité requise dr (ppg) ÷ Densité initiale d1 (ppg)</item>
+        <item>(Densité requise dr (ppg) – Densité initiale d1 (ppg)) x 1500 ÷ [35.8 – Densité requise dr (ppg)]</item>
+        <item>Augmentation de pression annulaire (psi/h) ÷ Densité initiale d1 (ppg) ÷ 0.052</item>
+        <item>P<sub>1</sub> x V<sub>1</sub> = P<sub>2</sub> x V<sub>2</sub>\n\nP<sub>2</sub> = P<sub>1</sub> x V<sub>1</sub> ÷ V<sub>2</sub>\n\nV<sub>2</sub> = P<sub>1</sub> x V<sub>1</sub> ÷ P<sub>2</sub></item>
+        <item>[{Pression de précharge (psi) ÷ Pression minimum (psi)} - {Pression de précharge (psi) ÷ Pression maximum (psi)}] × Volume des bouteilles (gallons)</item>
+        <item>Densité initiale d1 (ppg) d1 × 0.052 × Capacité acier tiges (bbl/ft) ÷ [Capacité casing (bbl/ft) Capacité acier tiges (bbl/ft)]</item>
+        <item>Densité initiale d1 (ppg) d1 × 0.052 × Capacité extérieure tiges (bbl/ft) ÷ [Capacité casing (bbl/ft) Capacité extérieure tiges (bbl/ft)]</item>
+        <item>Longueur masse-tiges (ft) x Capacité acier masse-tiges (bbl/ft) ÷ Capacité riser ou casing (bbl/ft)</item>
+        <item>Longueur masse-tiges (ft) x Capacité extérieure masse-tiges (bbl/ft) ÷ Capacité riser ou casing (bbl/ft)</item>
+        <item>[Pression hydro. (psi) - Pression de gisement (psi)] × [Capacité casing (bbl/ft) - Capacité acier tubulaires (bbl/ft)] ÷ [Gradient de boue (psi/ft) × Capacité acier tubulaires (bbl/ft)]</item>
+        <item>[Pression hydro. (psi) - Pression de gisement (psi)] × [Capacité casing (bbl/ft) - Capacité extérieure tubulaires (bbl/ft)] ÷ [Gradient de boue (psi/ft) × Capacité extérieure tubulaires (bbl/ft)]</item>
+        <item>Augmentation de pression en tête (psi) x Gain initial (bbl) ÷ [Pression de gisement (psi) - Augmentation de pression en tête (psi)]</item>
+        <item>Longueur de tiges vides (ft) x capacité intérieure tiges (bbl/ft) x densité de la boue (ppg) ÷ [Densité du bouchon (ppg)- densité de la boue (ppg)]</item>
+        <item>volume du bouchon lourd (bbl) x [densité du bouchon (ppg) ÷ densité de la boue (ppg) - 1]</item>
+        <item>[{air gap (ft) + profondeur d\'eau (ft)} x densité de la boue - {profondeur d\'eau (ft) x densité eau de mer (ppg)}] ÷ [TVD (ft) - air gap (ft) - profondeur d\'eau (ft)]</item>
+        <item>Densité de la boue (ppg) x 0.052 x capacité intérieure du casing (bbl/ft) x hauteur non remplie de casing (ft) ÷ [capacité intérieure du casing (bbl/ft) + capacité annulaire (bbl/ft)</item>
+    </string-array>
+    <string-array name="formula_expressions_metric_00981">
+        <item>Densité de la boue (kg/L) x 0.0981 x TVD (m)</item>
+        <item>Densité de la boue (kg/L) × 0.0981</item>
+        <item>Pression (bar) ÷ TVD (m) ÷ 0.0981</item>
+        <item>Pression hydrostatique dans la garniture (bar) + SIDPP (bar)</item>
+        <item>Capacité de la pompe (L/stk) x vitesse de la pompe (spm)</item>
+        <item>Débit (L/min) ÷ Capacité de l\'espace annulaire (L/m)</item>
+        <item>Pertes de charge dans l\'espace annulaire (bar) ÷ TVD (m) ÷ 0.0981 + densité de la boue (kg/L)</item>
+        <item>Marge de Sécurité (bar) ÷ TVD (m) ÷ 0.0981 + densité de la boue (kg/L)</item>
+        <item>Ancienne pression de refoulement (bar) × [Nouvelle vitesse de pompe ÷ Ancienne vitesse de pompe]<sup>2</sup></item>
+        <item>Ancienne pression de refoulement (bar) × [Nouvelle densité ÷ Ancienne densité]</item>
+        <item>Pression lue en surf ace lors du LOT (bar) ÷ TVD Sabot (m) ÷ 0.0981 + Densité utilisée lors du LOT (kg/L)</item>
+        <item>[Densité max. dans le puits (kg/L)- densité actuelle dans le puits (kg/L)] x 0.0981 x TVD sabot (m)</item>
+        <item>SIDPP (bar) ÷ TVD (m) ÷ 0.0981 + Densité initiale d1 (kg/L)</item>
+        <item>Pertes de charge à débit réduit (bar) + SIDPP (bar)</item>
+        <item>Pertes de charge à débit réduit (bar) x Densité requise dr (kg/L) ÷ Densité initiale d1 (kg/L)</item>
+        <item>(Densité requise dr (kg/L) – Densité initiale d1 (kg/L)) x 4.2 ÷ [4.2 – Densité requise dr (kg/L)]</item>
+        <item>Augmentation de pression annulaire (bar/h) ÷ Densité initiale d1 (kg/L) ÷ 0.0981</item>
+        <item>P<sub>1</sub> x V<sub>1</sub> = P<sub>2</sub> x V<sub>2</sub>\n\nP<sub>2</sub> = P<sub>1</sub> x V<sub>1</sub> ÷ V<sub>2</sub>\n\nV<sub>2</sub> = P<sub>1</sub> x V<sub>1</sub> ÷ P<sub>2</sub></item>
+        <item>[{Pression de précharge (bar) ÷ Pression minimum (bar)} - {Pression de précharge (bar) ÷ Pression maximum (bar)}] × Volume des bouteilles (L)</item>
+        <item>Densité initiale d1 (kg/L) d1 × 0.0981 × Capacité acier tiges (L/m) ÷ [Capacité casing (L/m) Capacité acier tiges (L/m)]</item>
+        <item>Densité initiale d1 (kg/L) d1 × 0.0981 × Capacité extérieure tiges (L/m) ÷ [Capacité casing (L/m) Capacité extérieure tiges (L/m)]</item>
+        <item>Longueur masse-tiges (m) x Capacité acier masse-tiges (L/m) ÷ Capacité riser ou casing (L/m)</item>
+        <item>Longueur masse-tiges (m) x Capacité extérieure masse-tiges (L/m) ÷ Capacité riser ou casing (L/m)</item>
+        <item>[Pression hydro. (bar) - Pression de gisement (bar)] × [Capacité casing (L/m) - Capacité acier tubulaires (L/m)] ÷ [Densité de la boue (kg/L) × 0.0981 × Capacité acier tubulaires (L/m)]</item>
+        <item>[Pression hydro. (bar) - Pression de gisement (bar)] × [Capacité casing (L/m) - Capacité extérieure tubulaires (L/m)] ÷ [Densité de la boue (kg/L) × 0.0981 × Capacité extérieure tubulaires (L/m)]</item>
+        <item>Augmentation de pression en tête (bar) x Gain initial (L) ÷ [Pression de gisement (bar) - Augmentation de pression en tête (bar)]</item>
+        <item>Longueur de tiges vides (m) x capacité intérieure tiges (L/m) x densité de la boue (kg/L) ÷ [Densité du bouchon (kg/L)- densité de la boue (kg/L)]</item>
+        <item>volume du bouchon lourd (L) x [densité du bouchon (kg/L) ÷ densité de la boue (kg/L) - 1]</item>
+        <item>[{air gap (m) + profondeur d\'eau (m)} x densité de la boue - {profondeur d\'eau (m) x densité eau de mer (kg/L)}] ÷ [TVD (m) - air gap (m) - profondeur d\'eau (m)]</item>
+        <item>Densité de la boue (kg/L) x 0.0981 x capacité intérieure du casing (L/m) x hauteur non remplie de casing (m) ÷ [capacité intérieure du casing (L/m) + capacité annulaire (L/m)</item>
+    </string-array>
+
+</resources>

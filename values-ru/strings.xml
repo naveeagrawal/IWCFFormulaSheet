@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IWCF скважина контроль калькулятор</string>
+    <string name="action_settings">настройки</string>
+    <string name="answer">ответ</string>
+    <string name="mud_density">Плотность бурового раствора</string>
+    <string name="hydrostatic_pressure">Гидростатическое давление</string>
+    <string name="hydrostatic_pressure_in_drill_string">Гидростатическое давление в бурильной колонне</string>
+    <string name="pump_displacement">Подача насоса</string>
+    <string name="pump_rate">Скорость работы насоса</string>
+    <string name="pump_output">Подача насоса</string>
+    <string name="annular_capacity">Удельный объем КП</string>
+    <string name="annular_pressure_loss">Потери давления в КП</string>
+    <string name="safety_margin">Запас безопасности</string>
+    <string name="old_pump_pressure">Старое значение давления</string>
+    <string name="new_pump_rate">Новая скорость насоса</string>
+    <string name="old_pump_rate">Старая скорость насоса</string>
+    <string name="new_mud_density">Новая Плотность\nбурового раствора</string>
+    <string name="old_mud_density">Старая Плотность\nбурового раствора</string>
+    <string name="surface_LOT_pressure">Устьевое давление при ИПП</string>
+    <string name="shoe_TVD">Глубина башмака по вертикали</string>
+    <string name="LOT_mud_density">Плотность жидкости при ИПП</string>
+    <string name="tvd">ГСВ</string>
+    <string name="maximum_allowable_mud_density">Макс. доп.\nплотность бур. р-ра</string>
+    <string name="current_mud_density">Плотность применя мого р-ра</string>
+    <string name="original_mud_density">Старая плотность бурового раствора</string>
+    <string name="kill_rate_pressure">Давление прокачки</string>
+    <string name="SIDPP">ДБТЗС</string>
+    <string name="kill_mud_density">Плотность раствора глушения</string>
+    <string name="rate_of_increase_in_surface_pressure">Rate of increase in\nsurface pressure</string>
+    <string name="rate_of_increase_in_surface_pressure_land">Rate of increase in surface pressure</string>
+    <string name="initial_mud_density">Mud Density</string>
+    <string name="precharge_pressure">Precharge Pressure</string>
+    <string name="minimum_pressure">Minimum Pressure</string>
+    <string name="maximum_pressure">Maximum Pressure</string>
+    <string name="bottle_size">Bottle Size</string>
+    <string name="metal_displacement">Metal Displacement</string>
+    <string name="riser_or_casing_capacity">Riser or Casing Capacity</string>
+    <string name="closed_end_displacement">Closed end displacement</string>
+    <string name="length_of_collars">Length of collars</string>
+    <string name="metal_displacement_of_collars">Metal displacement of collars</string>
+    <string name="closed_end_displacement_of_collars">Closed end displacement</string>
+    <string name="overbalance">Overbalance</string>
+    <string name="mud_gradient">Mud Gradient</string>
+    <string name="increase_in_surface_pressure">Increase in surface pressure</string>
+    <string name="formation_pressure">Пластовое давление</string>
+    <string name="influx_volume">Influx Volume</string>
+    <string name="length_of_dry_pipe">Length of dry pipe</string>
+    <string name="pipe_capacity">Pipe capacity</string>
+    <string name="slug_density">Slug Density</string>
+    <string name="slug_volume">Slug volume</string>
+    <string name="air_gap">Air gap</string>
+    <string name="water_depth">Water depth</string>
+    <string name="seawater_density">Sea water density</string>
+    <string name="unfilled_casing_height">Unfilled casing height</string>
+    <string name="casing_capacity">Casing capacity</string>
+    <string name="calculate">вычислять</string>
+    <string name="pressure">Давление</string>
+    <string name="ad_unit_id">ca-app-pub-7466708221842397/9802769278</string>
+    <string name="ad_unit_id_interstitial"> ca-app-pub-7466708221842397/9460385275</string>
+
+    <string-array name="formula_titles">
+        <item>1. Гидростатическое давление</item>
+        <item>2. Градиент давления</item>
+        <item>3. Плотность бурового раствора</item>
+        <item>4. Пластовое (поровое) давление</item>
+        <item>5. Подача насоса</item>
+        <item>6. Скорость потока в КП</item>
+        <item>7. Эквивалентная плотность бурового раствора</item>
+        <item>8. Плотность раствора с учётом запаса безопасности при СПО</item>
+        <item>9. Приближённое значение давления на насосе при прокачке с новой скоростью</item>
+        <item>10. Приближённое значение давления на насосе при прокачке раствора новой плотности</item>
+        <item>11. Максимально допустимая плотность бурового раствора</item>
+        <item>12. Максимально допустимое устьевое давление в КП (МДУДКП)</item>
+        <item>13. Плотность бурового раствора глушения</item>
+        <item>14. Начальное давление циркуляции</item>
+        <item>15. Конечное давление циркуляции</item>
+        <item>16. BARYTE REQUIRED TO INCREASE DRILLING MUD DENSITY</item>
+        <item>17. GAS MIGRATION RATE</item>
+        <item>18. GAS LAWS</item>
+        <item>19. ACCUMULATOR BOTTLE USABLE FLUID</item>
+        <item>20. PRESSURE DROP PER FOOT TRIPPING DRY PIPE</item>
+        <item>21. PRESSURE DROP PER FOOT TRIPPING WET PIPE</item>
+        <item>22. LEVEL DROP PULLING REMAINING COLLARS OUT OF HOLE DRY</item>
+        <item>23. LEVEL DROP PULLING REMAINING COLLARS OUT OF HOLE WET</item>
+        <item>24. LENGTH OF TUBULARS TO PULL DRY BEFORE OVERBALANCE IS LOST</item>
+        <item>25. LENGTH OF TUBULARS TO PULL WET BEFORE OVERBALANCE IS LOST</item>
+        <item>26. VOLUME TO BLEED OFF TO RESTORE BHP TO FORMATION PRESSURE</item>
+        <item>27. SLUG VOLUME FOR A GIVEN LENGTH OF DRY PIPE</item>
+        <item>28. PIT GAIN DUE TO SLUG U-TUBING</item>
+        <item>29. RISER MARGIN</item>
+        <item>30. HYDROSTATIC PRESSURE LOSS IF CASING FLOAT FAILS</item>
+    </string-array>
+    <string-array name="formula_expressions">
+        <item>Плотность флюида (ppg) × 0,052 × ГСВ (ft)</item>
+        <item>Плотность флюида (ppg) × 0,052</item>
+        <item>Давление (psi) ÷ ГСВ (ft) ÷ 0,052</item>
+        <item>Гидростатическое давление в бурильной колонне (psi) + ДБТЗС (psi)</item>
+        <item>Подача насоса (bbl/stroke) x Скорость работы насоса (SPM)</item>
+        <item>Подача насоса (bbl/min) ÷ Удельный объем КП (bbl/ft)</item>
+        <item>[Потери давления в КП (psi) ÷  ГСВ (ft) ÷ 0.052] + Плотность бурового раствора (ppg)</item>
+        <item>[Запас безопасности (psi) ÷ ГСВ (ft) ÷ 0.052] + Плотность бурового раствора (ppg)</item>
+        <item>Старое значение давления (psi) x [Новая скорость насоса (SPM) ÷ Старая скорость насоса (SPM)]<sup>2</sup></item>
+        <item>Старое значение давления (psi) x Новая Плотность бурового раствора (ppg) ÷ Старая Плотность бурового раствора (ppg)</item>
+        <item>[Устьевое давление при ИПП (psi) ÷ Глубина башмака по вертикали (ft) ÷ 0.052] + Плотность жидкости при ИПП (ppg)</item>
+        <item>[Макс. доп. плотность бур. р-ра (ppg) – – Плотность применямого р-ра (ppg)] x 0.052 x глубина башмака по вертикали (ft)</item>
+        <item>[ДБТЗС (psi) ÷ ГСВ (ft) ÷ 0.052] + Старая плотность бурового раствора (ppg)</item>
+        <item>Давление прокачки (psi) +  ДБТЗС (psi)</item>
+        <item>[Плотность раствора глушения (ppg) ÷ Старая плотность бурового раствора (ppg)] x Давление прокачки (psi)</item>
+        <item>[Kill Mud Density (ppg) − Original Mud Density (ppg)] x 1500 ÷ [35.8 − Kill Mud Density (ppg)]</item>
+        <item>Rate of Increase in Surface Pressure (psi/hr) ÷ Drilling Mud Density (ppg) ÷ 0.052</item>
+        <item>P<sub>1</sub> x V<sub>1</sub> = P<sub>2</sub> x V<sub>2</sub>\n\nP<sub>2</sub> = P<sub>1</sub> x V<sub>1</sub> ÷ V<sub>2</sub>\n\nV<sub>2</sub> = P<sub>1</sub> x V<sub>1</sub> ÷ P<sub>2</sub></item>
+        <item>[{Precharge Pressure (psi) ÷ Minimum Pressure (psi)} - {Precharge Pressure (psi) ÷ Maximum Pressure (psi)}] × Bottle Size (gallons)</item>
+        <item>Mud Density (ppg) × 0.052 × Metal Displacement (bbl/ft) ÷ [Riser or Casing Capacity (bbl/ft) − Metal Displacement (bbl/ft)]</item>
+        <item>Mud Density (ppg) × 0.052 × Closed End Displacement (bbl/ft) ÷ [Riser or Casing Capacity (bbl/ft) − Closed End Displacement (bbl/ft)]</item>
+        <item>Length of Collars (ft) × Metal Displacement (bbl/ft) ÷ Riser or Casing Capacity (bbl/ft)</item>
+        <item>Length of Collars (ft) × Closed End Displacement (bbl/ft) ÷ Riser or Casing Capacity (bbl/ft)</item>
+        <item>[Hydrostatic Pressure (psi) - Formation Pressure (psi)] × [Riser or Casing Capacity (bbl/ft) − Metal Displacement (bbl/ft)] ÷ [Mud Gradient (psi/ft) × Metal Displacement (bbl/ft)]</item>
+        <item>[Hydrostatic Pressure (psi) - Formation Pressure (psi)] × [Riser or Casing Capacity (bbl/ft)− Closed End Displacement (bbl/ft)] ÷ [Mud Gradient (psi/ft) × Closed End Displacement (bbl/ft)]</item>
+        <item>Increase in Surface Pressure (psi) × Influx Volume (bbl) ÷ [Formation Pressure (psi) − Increase in Surface Pressure (psi)]</item>
+        <item>Length of Dry Pipe (ft ) × Pipe Capacity (bbl/ft) × Drilling Mud Density (ppg) ÷ [Slug Density (ppg) − Drilling Mud Density (ppg)]</item>
+        <item>Slug Volume (bbl) × [Slug Density (ppg) ÷ Drilling Mud Density (ppg) - 1]</item>
+        <item>[Air Gap (ft)+ Water Depth (ft)] × Mud Density (ppg)− [Water Depth (ft) × Sea Water Density (ppg)] ÷ [TVD (ft)− Air Gap (ft)− Water Depth (ft)]</item>
+        <item>Mud Density (ppg) × 0.052 × Casing Capacity (bbl/ft) × Unfilled Casing Height (ft) ÷ [Casing Capacity (bbl/ft) + Annular Capacity (bbl/ft)]</item>
+    </string-array>
+    <string-array name="formula_expressions_metric_00981">
+        <item>Mud Density (kg/L) x 0.0981 x TVD (m)</item>
+        <item>Mud Density (kg/L) x 0.0981</item>
+        <item>Pressure (bar) ÷ TVD (m) ÷ 0.0981</item>
+        <item>Hydrostatic Pressure in Drill String (bar) + SIDPP (bar)</item>
+        <item>Pump Displacement (L/stroke) x Pump Rate (SPM)</item>
+        <item>Pump Output (L/min) ÷ Annular Capacity (L/m)</item>
+        <item>[Annular Pressure Loss (bar) ÷ TVD (m) ÷ 0.0981] + Mud Density (kg/L)</item>
+        <item>[Safety Margin (bar) ÷TVD (m) ÷ 0.0981] + Mud Density (kg/L)</item>
+        <item>Old Pump Pressure (bar) x [New Pump Rate (SPM) ÷ Old Pump Rate (SPM)]<sup>2</sup></item>
+        <item>Old Pump Pressure (bar) x New Mud Density (kg/L) ÷ Old Mud Density (kg/L)</item>
+        <item>[Surface LOT pressure (bar) ÷ Shoe TVD (m) ÷ 0.0981] + LOT Mud Density (kg/L)</item>
+        <item>[Maximum Allowable Mud Density (kg/L) – Current Mud Density (kg/L)] x 0.0981 x Shoe TVD (m)</item>
+        <item>[SIDPP (bar) ÷ TVD (ft) ÷ 0.0981] + Original Mud Density (kg/L)</item>
+        <item>Kill Rate Pressure (bar) + SIDPP (bar)</item>
+        <item>[Kill Mud Density (kg/L) ÷ Original Mud Density (kg/L)] x Kill Rate Circulating Pressure (bar)</item>
+        <item>[Kill Mud Density (kg/L) − Original Mud Density (kg/L)] x 4.2 ÷ [4.2 − Kill Mud Density (kg/L)]</item>
+        <item>Rate of Increase in Surface Pressure (bar/hr) ÷ Drilling Mud Density (kg/L) ÷ 0.0981</item>
+        <item>P<sub>1</sub> x V<sub>1</sub> = P<sub>2</sub> x V<sub>2</sub>\n\nP<sub>2</sub> = P<sub>1</sub> x V<sub>1</sub> ÷ V<sub>2</sub>\n\nV<sub>2</sub> = P<sub>1</sub> x V<sub>1</sub> ÷ P<sub>2</sub></item>
+        <item>[{Precharge Pressure (bar) ÷ Minimum Pressure (bar)} - {Precharge Pressure (bar) ÷ Maximum Pressure (bar)}] × Bottle Size (L)</item>
+        <item>Mud Density (kg/L) × 0.0981 × Metal Displacement (L/m) ÷ [Riser or Casing Capacity (L/m) − Metal Displacement (L/m)]</item>
+        <item>Mud Density (kg/L) × 0.0981 × Closed End Displacement (L/m) ÷ [Riser or Casing Capacity (L/m) − Closed End Displacement (L/m)]</item>
+        <item>Length of Collars (m) × Metal Displacement (L/m) ÷ Riser or Casing Capacity (L/m)</item>
+        <item>Length of Collars (m) × Closed End Displacement (L/m) ÷ Riser or Casing Capacity (L/m)</item>
+        <item>[Hydrostatic Pressure (bar) - Formation Pressure (bar)] × [Riser or Casing Capacity (L/m) − Metal Displacement (L/m)] ÷ [Mud Gradient (bar/m) × Metal Displacement (L/m)]</item>
+        <item>[Hydrostatic Pressure (bar) - Formation Pressure (bar)] × [Riser or Casing Capacity (L/m)− Closed End Displacement (L/m)] ÷ [Mud Gradient (bar/m) × Closed End Displacement (L/m)]</item>
+        <item>Increase in Surface Pressure (bar) × Influx Volume (L) ÷ [Formation Pressure (bar) − Increase in Surface Pressure (bar)]</item>
+        <item>Length of Dry Pipe (m) × Pipe Capacity (L/m) × Drilling Mud Density (kg/L) ÷ [Slug Density (kg/L) − Drilling Mud Density (kg/L)]</item>
+        <item>Slug Volume (L) × [Slug Density (kg/L) ÷ Drilling Mud Density (kg/L) - 1]</item>
+        <item>[Air Gap (m)+ Water Depth (m)] × Mud Density (kg/L)− [Water Depth (m) × Sea Water Density (kg/L)] ÷ [TVD (m)− Air Gap (m)− Water Depth (m)]</item>
+        <item>Mud Density (kg/L) × 0.0981 × Casing Capacity (L/m) × Unfilled Casing Height (m) ÷ [Casing Capacity (L/m) + Annular Capacity (L/m)]</item>
+    </string-array>
+    <string-array name="api_units">
+        <item>psi</item>
+        <item>psi/ft</item>
+        <item>ppg</item>
+        <item>psi</item>
+        <item>bbl/min</item>
+        <item>ft/min</item>
+        <item>ppg</item>
+        <item>ppg</item>
+        <item>psi</item>
+        <item>psi</item>
+        <item>ppg</item>
+        <item>psi</item>
+        <item>ppg</item>
+        <item>psi</item>
+        <item>psi</item>
+        <item>lb/bbl</item>
+        <item>ft/hr</item>
+        <item></item>
+        <item>gallons</item>
+        <item>psi/ft</item>
+        <item>psi/ft</item>
+        <item>ft</item>
+        <item>ft</item>
+        <item>ft</item>
+        <item>ft</item>
+        <item>bbl</item>
+        <item>bbl</item>
+        <item>bbl</item>
+        <item>ppg</item>
+        <item>psi</item>
+    </string-array>
+    <string-array name="metric_units_constant_10">
+        <item>kg/cm<sup>2</sup></item>
+        <item>kg/cm<sup>2</sup>/m</item>
+        <item>kg/L</item>
+        <item>kg/cm<sup>2</sup></item>
+        <item>L/min</item>
+        <item>m/min</item>
+        <item>kg/L</item>
+        <item>kg/L</item>
+        <item>kg/cm<sup>2</sup></item>
+        <item>kg/cm<sup>2</sup></item>
+        <item>kg/L</item>
+        <item>kg/cm<sup>2</sup></item>
+        <item>kg/l</item>
+        <item>kg/cm<sup>2</sup></item>
+        <item>kg/cm<sup>2</sup></item>
+        <item>kg/L</item>
+        <item>m/hr</item>
+        <item></item>
+        <item>L</item>
+        <item>kg/cm<sup>2</sup>/m</item>
+        <item>kg/cm<sup>2</sup>/m</item>
+        <item>m</item>
+        <item>m</item>
+        <item>m</item>
+        <item>m</item>
+        <item>L</item>
+        <item>L</item>
+        <item>L</item>
+        <item>kg/L</item>
+        <item>kg/cm<sup>2</sup></item>
+    </string-array>
+    <string-array name="metric_units_00981">
+        <item>bar</item>
+        <item>bar/m</item>
+        <item>kg/L</item>
+        <item>bar</item>
+        <item>L/min</item>
+        <item>m/min</item>
+        <item>kg/L</item>
+        <item>kg/L</item>
+        <item>bar</item>
+        <item>bar</item>
+        <item>kg/L</item>
+        <item>bar</item>
+        <item>kg/L</item>
+        <item>bar</item>
+        <item>bar</item>
+        <item>kg/L</item>
+        <item>m/h</item>
+        <item></item>
+        <item>L</item>
+        <item>bar/m</item>
+        <item>bar/m</item>
+        <item>m</item>
+        <item>m</item>
+        <item>m</item>
+        <item>m</item>
+        <item>L</item>
+        <item>L</item>
+        <item>L</item>
+        <item>kg/L</item>
+        <item>bar</item>
+    </string-array>
+</resources>

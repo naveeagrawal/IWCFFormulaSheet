@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+    <item android:id="@+id/select_units"
+        android:title="Select Units"
+        android:orderInCategory="10"
+        android:showAsAction="never">
+        <menu>
+            <item android:id="@+id/api_units"
+                android:title="API"
+                android:orderInCategory="10"
+                android:showAsAction="never" />
+            <item android:id="@+id/metric_units_10"
+                android:title="Metric 10"
+                android:orderInCategory="20"
+                android:showAsAction="never" />
+            <item android:id="@+id/metric_units_102"
+                android:title="Metric 10.2"
+                android:orderInCategory="30"
+                android:showAsAction="never" />
+            <item android:id="@+id/metric_units_00981"
+                android:title="Metric 0.0981"
+                android:orderInCategory="40"
+                android:showAsAction="never" />
+            <item android:id="@+id/SI_units"
+                android:title="SI"
+                android:orderInCategory="50"
+                android:showAsAction="never" />
+        </menu>
+    </item>
+</menu>
